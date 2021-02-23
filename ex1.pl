@@ -1,4 +1,4 @@
-homme(jean) .
+omme(jean) .
 homme(alain).
 femme(lucie) .
 femme(nelly) .
