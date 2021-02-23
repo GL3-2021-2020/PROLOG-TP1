@@ -1,11 +1,11 @@
-omme(jean) .
+omme(jean).
 homme(alain).
-femme(lucie) .
-femme(nelly) .
+femme(lucie).
+femme(nelly).
 femme(martine).
-parent(jean, lucie) .
-parent(nelly, lucie) .
-parent(lucie, alain) .
+parent(jean, lucie).
+parent(nelly, lucie).
+parent(lucie, alain).
 parent(alain, martine).
 
 ancetre(X,Y) :-parent(X,Y).
