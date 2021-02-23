@@ -7,9 +7,7 @@ carre :- write('donner un entier'), nl, read(X), nl, Y is X*X, write('le carre d
 
 carre_boucle :- write('donner un entier'), nl, read(X),(X =\= 0 -> write('votre carre est '), Y is X*X, write(Y),nl,carre_boucle;write('entier null'),nl).
 
-
 factoriel(0, 1).
-
 factoriel(X,Y) :- 
      X > 0 ,
      A is X-1, 
